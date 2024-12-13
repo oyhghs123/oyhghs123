@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
+import Gal from "./com/Gal";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <h1>App</h1>
+      <main>
+        <Gal />
+      </main>
       <Footer />
     </div>
   );
