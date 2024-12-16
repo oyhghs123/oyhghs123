@@ -1,0 +1,30 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo {
+  align-items: center;
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--red7);
+  padding: 30px;
+}
+
+#header ul {
+  display: flex;
+  column-gap: 10px;
+}
+
+#header ul .hb {
+  border-radius: 100px;
+  border: 1px solid;
+  padding: 5px 10px;
+  height: 40px;
+}
+
+#header ul .hb.1 {
+}

@@ -1,0 +1,19 @@
+div.nf {
+  color: red;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  height: 50px;
+  width: 50px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.nf1 {
+  color: black;
+  display: flex;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  column-gap: 10px;
+}
